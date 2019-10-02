@@ -23,6 +23,7 @@
     <script type="application/javascript" src="js/search.js"></script>
     <script type="application/javascript" src="js/live_performance.js"></script>
     <script type="application/javascript" src="js/cart.js"></script>
+    <link rel="stylesheet" href="css/edits.css">
     <link rel="stylesheet" href="assets/packages/glider.min.css">
     <link rel="stylesheet" href="assets/packages/cube.css">
     <link rel="stylesheet" href="css/partials/header.css">
@@ -36,7 +37,7 @@
     <link rel="stylesheet" href="css/common/cart-strip.css">
     <link rel="stylesheet" href="css/common/base.css">
     <link rel="stylesheet" href="css/common/event-card.css">
-    <link rel="stylesheet" href="css/edits.css">
+
 
     <link rel="stylesheet" href="css/pages/home.css">
     <script type="application/javascript" src="js/home.js"></script>
@@ -68,7 +69,7 @@ function build_sub_categories($sub_categories, $banners = [])
     echo '</ul>';
 
     if (count($sub_categories) <= 5 && count($banners) > 2) {
-        echo '<div class="banner">
+        echo '<div class="banners alc"><div class="banner">
             <a href="' . $banners[0]['image']['url'] . '"><img src="' . $banners[0]['image']['url'] . '" /></a>
         </div>';
         echo '<div class="banner">
@@ -76,18 +77,18 @@ function build_sub_categories($sub_categories, $banners = [])
         </div>';
         echo '<div class="banner">
             <a href="' . $banners[2]['image']['url'] . '"><img src="' . $banners[2]['image']['url'] . '" /></a>
-        </div>';
+        </div></div>';
     } else if (count($sub_categories) <= 10 && count($banners) > 1) {
-        echo '<div class="banner">
+        echo '<div class="banners alc"><div class="banner">
             <a href="' . $banners[0]['image']['url'] . '"><img src="' . $banners[0]['image']['url'] . '" /></a>
         </div>';
         echo '<div class="banner">
             <a href="' . $banners[1]['image']['url'] . '"><img src="' . $banners[1]['image']['url'] . '" /></a>
-        </div>';
+        </div></div>';
     } else if(count($banners) > 0) {
-        echo '<div class="banner">
+        echo '<div class="banners alc"><div class="banner">
             <a href="' . $banners[0]['image']['url'] . '"><img src="' . $banners[0]['image']['url'] . '" /></a>
-        </div>';
+        </div></div>';
     }
 };
 
