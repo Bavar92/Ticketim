@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="css/common/cart-strip.css">
     <link rel="stylesheet" href="css/common/base.css">
     <link rel="stylesheet" href="css/common/event-card.css">
+    <link rel="stylesheet" href="css/edits.css">
 
     <link rel="stylesheet" href="css/pages/home.css">
     <script type="application/javascript" src="js/home.js"></script>
