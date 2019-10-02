@@ -131,7 +131,10 @@ foreach ( $reg_sidebars as $id => $name ) {
 
 
 
-
+// Custom theme url
+function theme($filepath = NULL){
+    return preg_replace( '(https?://)', '//', get_stylesheet_directory_uri() . ($filepath?'/' . $filepath:'') );
+}
 
 
 
