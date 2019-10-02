@@ -35,7 +35,6 @@
                 <?php wp_nav_menu(array('container' => false, 'items_wrap' => '<ul id="%1$s">%3$s</ul>', 'theme_location' => 'footer_menu')); ?>
             </nav>
             <div class="payment-section">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam cum cumque delectus dolores eaque ex harum inventore ipsam iure iusto libero, numquam perspiciatis ratione sed sunt, velit! Dolorum, pariatur.
                 <img src="<?= theme() ?>/assets/Ticketim.png" alt="payment">
             </div>
         </div>

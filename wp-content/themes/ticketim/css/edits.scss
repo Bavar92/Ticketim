@@ -525,6 +525,10 @@
   background-repeat: no-repeat;
 }
 
+.footer-main {
+  background-color: #d8d2d2 !important;
+}
+
 .footer-bottom {
   padding: 50px 10%;
   #footerMenu {
@@ -547,6 +551,7 @@
     @include flex-basis(30%);
     max-width: 30%;
     margin-right: 3%;
+    text-align: center;
   }
 }
 
