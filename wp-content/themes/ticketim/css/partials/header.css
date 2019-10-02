@@ -437,7 +437,20 @@ select {
       .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper {
         padding: 0 15%;
         width: 100%;
-        display: flex; }
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        justify-content: space-between; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .left-border {
           border-left: 1px solid #4d4d4d; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list {
@@ -453,9 +466,11 @@ select {
               color: #4d4d4d;
               text-decoration: none; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .banner {
-          width: 25%;
-          margin: 20px;
-          background-color: white; }
+          width: 23%;
+          margin: 10px; }
+          .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .banner img {
+            max-width: 100%;
+            height: 210px; }
 
 .fixed-header {
   position: fixed;
