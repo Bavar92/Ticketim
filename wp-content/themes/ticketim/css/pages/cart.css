@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'openSansHebrewLight';
+  src: url("../../assets/fonts/OpenSansHebrew-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+.checkbox-container {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  display: flex; }
+
+.checkbox-container .checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  height: 15px;
+  width: 15px;
+  border-radius: 8px;
+  margin: auto; }
+
+.checkbox-container .checkbox:checked ~ .checkmark {
+  background-color: #00aeef; }
+
+.text-input-container {
+  position: relative;
+  margin-bottom: 15px;
+  width: 90%; }
+  .text-input-container .text-input:focus ~ .floating-label,
+  .text-input-container .text-input:not(:focus):valid ~ .floating-label {
+    top: -5px;
+    right: 15px;
+    font-size: 14px;
+    opacity: 1;
+    color: #00aeef; }
+  .text-input-container .text-input {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: solid 2px #aaaaaa;
+    background-color: white;
+    padding: 0 15px;
+    appearance: none;
+    -webkit-appearance: none; }
+    .text-input-container .text-input:focus {
+      border: solid 2px #00aeef; }
+  .text-input-container .down-arrow-icon {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    width: 20px; }
+  .text-input-container .floating-label {
+    position: absolute;
+    pointer-events: none;
+    font-size: 16px;
+    right: 15px;
+    top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s ease all;
+    padding: 0 4px 0px 8px; }
+
+.submit {
+  height: 45px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #029bd4, #00aeef);
+  color: white;
+  cursor: pointer; }
+
+.cart-page-container {
+  width: 1024px;
+  margin: 0px auto;
+  position: relative;
+  display: flex; }
+  .cart-page-container .right-side {
+    width: 50%; }
+    .cart-page-container .right-side h1 {
+      margin: 10px 0px 0px 0px;
+      font-size: 28px; }
+    .cart-page-container .right-side .product-data-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .cart-page-container .right-side .product-data-container .line {
+        border-bottom: 1px solid #ebebeb;
+        width: 100%;
+        height: 40px;
+        display: flex; }
+        .cart-page-container .right-side .product-data-container .line .title {
+          width: 30%;
+          color: #333333;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 40px; }
+        .cart-page-container .right-side .product-data-container .line .content {
+          width: 70%;
+          color: #333333;
+          font-size: 16px;
+          line-height: 40px; }
+    .cart-page-container .right-side .product-description-title {
+      color: #00aeef;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 10px 10px 10px 0px;
+      background-color: #f8f8f8;
+      line-height: 28px;
+      display: flex;
+      justify-content: space-between; }
+      .cart-page-container .right-side .product-description-title .edit-button {
+        width: 29px;
+        height: 29px;
+        margin-left: 20px; }
+        .cart-page-container .right-side .product-description-title .edit-button img {
+          width: 100%;
+          height: 100%; }
+    .cart-page-container .right-side .product-description-description {
+      font-size: 14px;
+      padding: 5px 20px 20px 0px; }
+    .cart-page-container .right-side .additional-product-radio {
+      border-radius: 5px;
+      border: solid 1px #aaaaaa;
+      background-color: #ffffff;
+      margin: 10px 0px;
+      display: flex; }
+      .cart-page-container .right-side .additional-product-radio .text-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column; }
+        .cart-page-container .right-side .additional-product-radio .text-container .title {
+          font-size: 22px;
+          margin: 25px 10px 25px 0px;
+          color: #aaaaaa; }
+      .cart-page-container .right-side .additional-product-radio.with-subtitle .text-container .title {
+        margin: 20px 10px 0px 0px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333333; }
+      .cart-page-container .right-side .additional-product-radio.with-subtitle .text-container .subtitle {
+        margin: 0px 10px 20px 0px;
+        font-size: 14px; }
+      .cart-page-container .right-side .additional-product-radio.selected {
+        color: #00aeef;
+        border: 2px solid #00aeef; }
+        .cart-page-container .right-side .additional-product-radio.selected .text-container {
+          color: #00aeef; }
+          .cart-page-container .right-side .additional-product-radio.selected .text-container .title, .cart-page-container .right-side .additional-product-radio.selected .text-container .subtitle {
+            color: #00aeef; }
+  .cart-page-container .left-side {
+    width: 50%; }
+
+/*# sourceMappingURL=cart.css.map */

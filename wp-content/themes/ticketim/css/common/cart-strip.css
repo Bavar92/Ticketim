@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'openSansHebrewLight';
+  src: url("../../assets/fonts/OpenSansHebrew-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+.checkbox-container {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  display: flex; }
+
+.checkbox-container .checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  height: 15px;
+  width: 15px;
+  border-radius: 8px;
+  margin: auto; }
+
+.checkbox-container .checkbox:checked ~ .checkmark {
+  background-color: #00aeef; }
+
+.text-input-container {
+  position: relative;
+  margin-bottom: 15px;
+  width: 90%; }
+  .text-input-container .text-input:focus ~ .floating-label,
+  .text-input-container .text-input:not(:focus):valid ~ .floating-label {
+    top: -5px;
+    right: 15px;
+    font-size: 14px;
+    opacity: 1;
+    color: #00aeef; }
+  .text-input-container .text-input {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: solid 2px #aaaaaa;
+    background-color: white;
+    padding: 0 15px;
+    appearance: none;
+    -webkit-appearance: none; }
+    .text-input-container .text-input:focus {
+      border: solid 2px #00aeef; }
+  .text-input-container .down-arrow-icon {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    width: 20px; }
+  .text-input-container .floating-label {
+    position: absolute;
+    pointer-events: none;
+    font-size: 16px;
+    right: 15px;
+    top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s ease all;
+    padding: 0 4px 0px 8px; }
+
+.submit {
+  height: 45px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #029bd4, #00aeef);
+  color: white;
+  cursor: pointer; }
+
+.bottom-cart-strip {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 110px;
+  background-color: #fff;
+  display: flex;
+  -webkit-box-shadow: 0px -1px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 5px -2px rgba(0, 0, 0, 0.75); }
+  .bottom-cart-strip .right-side {
+    width: 50%; }
+  .bottom-cart-strip .left-side {
+    width: 50%;
+    display: flex; }
+    .bottom-cart-strip .left-side .price-container {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      margin: auto; }
+      .bottom-cart-strip .left-side .price-container .price {
+        color: #00aeef;
+        font-size: 28px; }
+      .bottom-cart-strip .left-side .price-container .description {
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold; }
+    .bottom-cart-strip .left-side .amount-container {
+      width: 33%;
+      margin: auto; }
+      .bottom-cart-strip .left-side .amount-container .inner-container {
+        display: flex; }
+        .bottom-cart-strip .left-side .amount-container .inner-container .title {
+          color: #00aeef;
+          font-size: 14px;
+          font-weight: bold; }
+    .bottom-cart-strip .left-side .button-container {
+      width: 33%;
+      margin: auto; }
+      .bottom-cart-strip .left-side .button-container .add-to-cart {
+        width: 150px;
+        height: 40px;
+        object-fit: contain;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, #029bd4, #00aeef);
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 20px;
+        z-index: 10; }
+        .bottom-cart-strip .left-side .button-container .add-to-cart span {
+          color: #fff;
+          font-size: 14px; }
+        .bottom-cart-strip .left-side .button-container .add-to-cart img {
+          height: 20px; }
+
+/*# sourceMappingURL=cart-strip.css.map */

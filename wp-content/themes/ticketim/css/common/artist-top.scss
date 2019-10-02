@@ -1,0 +1,83 @@
+@import 'colors';
+@import 'fonts';
+@import 'form';
+
+.artist-inner-top-section {
+    display: flex;
+
+    .text-side {
+        width: 50%;
+        padding: 20px;
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 20px;
+
+            &.bold {
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+
+        .info-line {
+            font-size: 16px;
+            color: $text-black;
+            display: flex;
+            margin-bottom: 15px;
+            line-height: 20px;
+
+            img.icon {
+                width: 15px;
+                fill: $main-blue;
+                margin-left: 10px;
+                object-fit: contain;
+            }
+
+            a {
+                color: $text-grey;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .comment {
+        background-color: $grey-background;
+        color: $text-black;
+        padding: 20px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .gallery-side {
+        width: 50%;
+    }
+}
+
+.gallery-side {
+    display: flex;
+    flex-direction: row;
+    
+    .gallery-large {
+        width: 411px;
+        height: 411px;
+        overflow: hidden;
+    }
+
+    .gallery-small-container {
+        display: flex;
+        flex-direction: column;
+        width: 136px;
+
+        .gallery-small-image {
+            width: 136px;
+            height: 136px;
+        }
+    }
+}

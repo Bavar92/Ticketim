@@ -1,0 +1,79 @@
+@import 'colors';
+@import 'fonts';
+@import 'form';
+
+.performance-container {
+    width: 1024px;    
+    margin: 0px auto;
+    position: relative;
+
+    .search-container {
+        width: 100%;
+        margin: 0px;
+
+        .search-form {
+            width: 50%;
+
+            .search-category-container {
+                .search-category-select.live {
+
+                    .category-title-wrapper {
+
+                        &.selected {
+                            border: 2px solid $main-blue;
+
+                            .left-side-container {
+                                .price-container {
+                                    .text {
+                                        font-size: 14px;
+                                        color: $main-blue;
+                                    }
+                                }
+                            }
+                        }
+
+                        .filter-category-title {
+                            color: $main-blue;
+                        }
+
+                        .left-side-container {
+                            display: flex;
+                            flex-direction: row;
+
+                            .price-container {
+                                color: $main-blue;
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 20px;
+
+                                .price {
+                                    font-size: 19px;
+                                }
+                                .text {
+                                    font-size: 14px;
+                                    color: $text-grey;
+                                }
+                            }
+
+                            .down-arrow {
+                                margin-top: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .left-side {
+        width: 50%;
+
+        .map-container {
+            width: 80%;
+            margin: 0px auto;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+@import 'colors';
+
+
+
+.event-card {
+  height: 450px;
+  width: 400px;
+  margin: 0 5px;
+  border: solid 1px #e5e4e4;
+  max-width: 400px;
+  .event-card-image-container {
+    position: relative;
+    .event-card-image {
+      width: 100%;
+      height: 300px;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: center;
+      object-position: center;
+    }
+    .icon-contianer {
+      position: absolute;
+      background-color: white;
+      border-radius: 50%;
+      bottom: -30px;
+      left: 20px;
+      height: 60px;
+      width: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        width: 25px;
+      }
+
+      .view-count {
+        font-size: 14px;
+        color: $text-grey;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .event-card-details-container {
+    display: flex;
+    padding: 2% 4%;
+
+    .right-column {
+      flex-grow: 1;
+      max-width: 70%;
+
+      .event-title {
+        font-size: 20px;
+        color: $main-blue;
+      }
+
+      .event-sub-title {
+        font-size: 11px;
+        margin: 20px 0px 30px 0px;
+        color: $text-black;
+      }
+
+      .event-date {
+        font-size: 12px;
+        color: $text-black;
+      }
+    }
+
+    .left-column {
+      flex-grow: 1;
+      max-width: 30%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      align-items: flex-end;
+      border-right: 1px solid #e5e4e4;
+      .starting-price {
+        font-size: 14px;
+        font-weight: bold;
+        color: $text-black;
+        margin-top: 30px;
+      }
+
+      .price {
+        font-size: 30px;
+        color: $text-black;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .event-card {
+    box-shadow: 0.8px 1.8px 27px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    width: 90% !important;
+    margin: 10px auto;
+
+    .event-card-image-container {
+      position: relative;
+
+      .event-card-image {
+        border-radius: 5px 5px 0px 0px;
+      }
+    }
+
+    .event-card-details-container {
+
+      .right-column {
+        max-width: 60%;
+
+        .event-sub-title {
+          font-size: 16px;
+        }
+
+        .event-date {
+          font-size: 13px;
+        }
+      }
+
+      .left-column {
+        max-width: 40%;
+
+        .starting-price {
+          font-size: 16px;
+          font-weight: bold;
+          color: $text-black;
+          margin-top: 30px;
+        }
+
+        .price {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+}

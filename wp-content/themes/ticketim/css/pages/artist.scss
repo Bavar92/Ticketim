@@ -1,0 +1,97 @@
+
+
+.artist-list-title {
+    h2 {
+        margin: 20px 30px 0px 0px;
+        font-size: 30px;
+        .title-icon {
+            width: 27px;
+        }
+    }
+}
+
+.artist-inner-container {
+    display: flex;
+
+    .right-side {
+        width: 50%;
+
+        .search-container.artist {
+            margin: 0px;
+            width: 100%;
+            position: relative;
+
+            .search-form {
+                width: 100%;
+
+                .search-category-container {
+                    .search-category-select.artist {
+                        .category-title-wrapper {
+                            .filter-category-date {
+                                span {
+                                    vertical-align: 5px;
+                                    font-size: 17px;
+                                    line-height: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .left-side {
+        width: 50%;
+        position: relative;
+    }
+}
+
+.artist-container {
+    width: 1024px;    
+    margin: 0px auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+.artist-events-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+
+    .artist-event-wrapper {
+        width: 90%;
+        border: solid 1px $main-blue;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        margin: 0px 10px 15px 10px;
+        height: 70px;
+
+        .artist-event-title {
+            color: $main-blue;
+            font-weight: bold;
+            font-size: 24.5px;
+            line-height: 60px;
+            margin-right: 20px;
+        }
+        .artist-event-price {
+            display: flex;
+            flex-direction: column;
+
+            .price-prefix {
+                font-size: 14px;
+                margin-top: 10px;
+                color: $text-light-black;
+            }
+            .price-text {
+                color: $main-blue;
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'openSansHebrewLight';
+  src: url("../../assets/fonts/OpenSansHebrew-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'openSansHebrew';
+  src: url("../../assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+.checkbox-container {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  display: flex; }
+
+.checkbox-container .checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  height: 15px;
+  width: 15px;
+  border-radius: 8px;
+  margin: auto; }
+
+.checkbox-container .checkbox:checked ~ .checkmark {
+  background-color: #00aeef; }
+
+.text-input-container {
+  position: relative;
+  margin-bottom: 15px;
+  width: 90%; }
+  .text-input-container .text-input:focus ~ .floating-label,
+  .text-input-container .text-input:not(:focus):valid ~ .floating-label {
+    top: -5px;
+    right: 15px;
+    font-size: 14px;
+    opacity: 1;
+    color: #00aeef; }
+  .text-input-container .text-input {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: solid 2px #aaaaaa;
+    background-color: white;
+    padding: 0 15px;
+    appearance: none;
+    -webkit-appearance: none; }
+    .text-input-container .text-input:focus {
+      border: solid 2px #00aeef; }
+  .text-input-container .down-arrow-icon {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    width: 20px; }
+  .text-input-container .floating-label {
+    position: absolute;
+    pointer-events: none;
+    font-size: 16px;
+    right: 15px;
+    top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s ease all;
+    padding: 0 4px 0px 8px; }
+
+.submit {
+  height: 45px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #029bd4, #00aeef);
+  color: white;
+  cursor: pointer; }
+
+.artist-inner-top-section {
+  display: flex; }
+  .artist-inner-top-section .text-side {
+    width: 50%;
+    padding: 20px; }
+    .artist-inner-top-section .text-side h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .artist-inner-top-section .text-side p {
+      font-size: 15px;
+      margin-bottom: 20px; }
+      .artist-inner-top-section .text-side p.bold {
+        font-weight: bold;
+        font-size: 16px; }
+    .artist-inner-top-section .text-side .info-line {
+      font-size: 16px;
+      color: #333333;
+      display: flex;
+      margin-bottom: 15px;
+      line-height: 20px; }
+      .artist-inner-top-section .text-side .info-line img.icon {
+        width: 15px;
+        fill: #00aeef;
+        margin-left: 10px;
+        object-fit: contain; }
+      .artist-inner-top-section .text-side .info-line a {
+        color: #aaaaaa;
+        text-decoration: underline; }
+  .artist-inner-top-section .comment {
+    background-color: #f8f8f8;
+    color: #333333;
+    padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold; }
+  .artist-inner-top-section .gallery-side {
+    width: 50%; }
+
+.gallery-side {
+  display: flex;
+  flex-direction: row; }
+  .gallery-side .gallery-large {
+    width: 411px;
+    height: 411px;
+    overflow: hidden; }
+  .gallery-side .gallery-small-container {
+    display: flex;
+    flex-direction: column;
+    width: 136px; }
+    .gallery-side .gallery-small-container .gallery-small-image {
+      width: 136px;
+      height: 136px; }
+
+/*# sourceMappingURL=artist-top.css.map */
