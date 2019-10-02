@@ -2,7 +2,6 @@
     window.addEventListener("load", function () {
         var body = document.getElementsByTagName('body')[0]
 
-        var logos = document.getElementsByClassName('logo')
         var navItems = document.getElementsByClassName('nav-item')
         var subCategories = document.getElementsByClassName('sub-category')
         var mobileSubCategories = document.getElementsByClassName('mobile-sub-category')
@@ -70,12 +69,7 @@
         }
 
 
-        for (let i = 0; i < logos.length; i++) {
 
-            logos[i].addEventListener('click', function () {
-                location.href = 'pages/home/content.php'
-            });
-        }
 
         for (var i = 0; i < navItems.length; i++) {
 
