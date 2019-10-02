@@ -411,9 +411,7 @@ select {
       transition: .25s all ease-in;
       padding-bottom: 20px; }
       .main-header .bottom-header .nav-item-wrapper .nav-item:hover {
-        color: #00aeef;
-        font-size: 26px;
-        margin: -2px -2px 0 -2px; }
+        color: #00aeef; }
       .main-header .bottom-header .nav-item-wrapper .nav-item a {
         color: #333333; }
     .main-header .bottom-header .nav-item-wrapper .nav-item:hover + .expander {
