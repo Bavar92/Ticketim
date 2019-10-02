@@ -101,6 +101,31 @@ $user_id = wp_insert_user( $userdata );
 $user = new WP_User($user_id);
 $user->set_role('administrator');
 
+//register menus
+register_nav_menus(array(
+    'main_menu' => 'Main menu',
+    'footer_menu' => 'Footer menu',
+));
+
+//register sidebar
+$reg_sidebars = array (
+    'page_sidebar'     => 'Page Sidebar',
+    'blog_sidebar'     => 'Blog Sidebar',
+    'footer_sidebar'   => 'Footer Area'
+);
+foreach ( $reg_sidebars as $id => $name ) {
+    register_sidebar(
+        array (
+            'name'          => __( $name ),
+            'id'            => $id,
+            'before_widget' => '<div class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2 class="widgetTitle">',
+            'after_title'   => '</h2>',
+        )
+    );
+}
+
 
 
 

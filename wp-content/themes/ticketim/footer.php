@@ -29,6 +29,11 @@
                 <?= some() ?>
             </div>
         </div>
+        <div class="footer-main">
+            <nav id="footerMenu">
+                <?php wp_nav_menu(array('container' => false, 'items_wrap' => '<ul id="%1$s">%3$s</ul>', 'theme_location' => 'footer_menu')); ?>
+            </nav>
+        </div>
     </div>
 </div>
 
