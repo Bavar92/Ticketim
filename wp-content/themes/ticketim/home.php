@@ -22,7 +22,6 @@ include('search-bar.php');
             <?php
 
             $banners = getMiddleBanners();
-
             foreach($banners as $key => $banner):
                 if($key == 6) {
                     break;
