@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="css/edits.css">
     <link rel="stylesheet" href="assets/packages/glider.min.css">
     <link rel="stylesheet" href="assets/packages/cube.css">
-    <link rel="stylesheet" href="css/partials/header.css">
     <link rel="stylesheet" href="css/partials/footer.css">
+    <link rel="stylesheet" href="css/partials/header.css">
     <link rel="stylesheet" href="css/partials/bottom-slider.css">
     <link rel="stylesheet" href="css/pages/main-events.css">
     <link rel="stylesheet" href="css/pages/desktop-search.css">
@@ -109,17 +109,39 @@ function build_mobile_sub_categories($sub_categories)
         <div class="top-header">
             <div class="top-header-details">
                 <img src="assets/clock.svg" class="smaller-icon" alt="">
-                <span>08-0-22:00 24/7</span>
+                <span><? the_field('time', 'option') ?></span>
             </div>
             <div class="top-header-details">
                 <img src="assets/phone.svg" class="smaller-icon" alt="">
-                <span>972-(0)3-5663120</span>
+                <span><? the_field('phone', 'option') ?></span>
             </div>
             <div class="top-header-details">
-                <div class="cart-container">
-                    <img src="assets/cart.svg" class="icon" alt="">
-                    <div class="cart">1</div>
-                </div>
+                <?php
+                add_shortcode ('woo_cart_but', 'woo_cart_but' );
+
+                function woo_cart_but() {
+                ob_start();
+
+                $cart_count = WC()->cart->cart_contents_count; // Set variable for cart item count
+                $cart_url = wc_get_cart_url();  // Set Cart URL
+
+                ?>
+                <a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="My Basket">
+                        <?php
+                        if ( $cart_count > 0 ) {
+                            ?>
+                            <i class="cart-contents-count fas fa-shopping-cart"><u><?php echo $cart_count; ?></u></i>
+                            <?php
+                        }
+                        ?>
+                    </a>
+                <?php
+
+    return ob_get_clean();
+
+}
+                 echo do_shortcode("[woo_cart_but]"); ?>
+
             </div>
         </div>
         <div class="bottom-header">
