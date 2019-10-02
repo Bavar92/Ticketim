@@ -113,7 +113,7 @@ function build_mobile_sub_categories($sub_categories)
             </div>
             <div class="top-header-details">
                 <img src="assets/phone.svg" class="smaller-icon" alt="">
-                <span><? the_field('phone', 'option') ?></span>
+                <span><a href="tel:<? the_field('phone', 'option') ?>"><? the_field('phone', 'option') ?></a></span>
             </div>
             <div class="top-header-details">
                 <?php
@@ -122,11 +122,11 @@ function build_mobile_sub_categories($sub_categories)
                 function woo_cart_but() {
                 ob_start();
 
-                $cart_count = WC()->cart->cart_contents_count; // Set variable for cart item count
-                $cart_url = wc_get_cart_url();  // Set Cart URL
+                $cart_count = WC()->cart->cart_contents_count;
+                $cart_url = wc_get_cart_url();
 
                 ?>
-                <a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="My Basket">
+                <a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="Cart">
                         <?php
                         if ( $cart_count > 0 ) {
                             ?>
@@ -145,7 +145,9 @@ function build_mobile_sub_categories($sub_categories)
             </div>
         </div>
         <div class="bottom-header">
-            <img class="logo" src="assets/logo.png" alt="">
+            <a href="<? site_url() ?>/" class="logo">
+                <img src="assets/logo.png" alt="logo">
+            </a>
             <div class="nav-item-wrapper">
                 <h1 class="nav-item" data-category="0">מבצעים חמים</h1>
                 <div class="expander">

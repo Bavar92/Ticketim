@@ -386,8 +386,30 @@ select {
         justify-content: center;
         align-items: center; }
     .main-header .top-header .top-header-details {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
       display: flex;
-      margin-right: 20px; }
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      margin-right: 25px; }
+      .main-header .top-header .top-header-details a {
+        color: #aaaaaa;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
+        .main-header .top-header .top-header-details a:hover {
+          color: #00aeef; }
       .main-header .top-header .top-header-details i {
         color: grey;
         font-size: 24px;
@@ -428,6 +450,8 @@ select {
       cursor: pointer;
       width: 20%;
       margin-bottom: 20px; }
+      .main-header .bottom-header .logo img {
+        max-width: 100%; }
     .main-header .bottom-header .nav-item-wrapper .nav-item {
       font-size: 24px;
       color: #333333;

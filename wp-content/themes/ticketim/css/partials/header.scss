@@ -98,8 +98,16 @@
     }
 
     .top-header-details {
-      display: flex;
-      margin-right: 20px;
+      @include flexbox();
+      @include align-items(center);
+      margin-right: 25px;
+      a {
+        color: #aaaaaa;
+        @include transition();
+        &:hover {
+          color: #00aeef;
+        }
+      }
       i {
         color: grey;
         font-size: 24px;
@@ -141,6 +149,9 @@
       cursor: pointer;
       width: 20%;
       margin-bottom: 20px;
+      img {
+        max-width: 100%;
+      }
     }
 
     .nav-item-wrapper {
