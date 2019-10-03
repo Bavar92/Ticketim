@@ -134,6 +134,7 @@ function build_mobile_sub_categories($sub_categories)
                 $cart_url = wc_get_cart_url();
 
                 ?>
+
                 <a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="Cart">
                     <i class="cart-contents-count fas fa-shopping-cart">
                         <?php
@@ -154,6 +155,8 @@ function build_mobile_sub_categories($sub_categories)
             echo do_shortcode("[woo_cart_but]"); ?>
 
         </div>
+
+
     </div>
     <div class="bottom-header">
         <a href="<? site_url() ?>/" class="logo">
