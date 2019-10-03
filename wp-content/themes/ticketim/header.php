@@ -122,6 +122,7 @@ function build_mobile_sub_categories($sub_categories)
             <span><a href="tel:<? the_field('phone', 'option') ?>"><? the_field('phone', 'option') ?></a></span>
         </div>
         <div class="top-header-details">
+
             <?php
             add_shortcode('woo_cart_but', 'woo_cart_but');
 
