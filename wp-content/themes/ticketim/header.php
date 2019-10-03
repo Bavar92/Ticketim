@@ -110,7 +110,7 @@ function build_mobile_sub_categories($sub_categories)
 
 ?>
 
-<body>
+<body <?= body_class() ?>>
 <div class="main-header">
     <div class="top-header">
         <div class="top-header-details">

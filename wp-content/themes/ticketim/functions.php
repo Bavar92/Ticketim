@@ -161,13 +161,30 @@ add_action( 'manage_posts_custom_column', 'gt_posts_custom_column_views' );
 
 
 
+function mytheme_add_woocommerce_support() {
+    add_theme_support('woocommerce', array(
+//  'thumbnail_image_width' => 150,
+//  'single_image_width'    => 300,
+        'product_grid' => array(
+            'default_rows' => 3,
+            'min_rows' => 2,
+            'max_rows' => 8,
+            'default_columns' => 4,
+            'min_columns' => 2,
+            'max_columns' => 5,
+        ),
+    ));
+}
+
+add_action('after_setup_theme', 'mytheme_add_woocommerce_support');
 
 
 
+function mb_remove_sidebar() {
+    return false;
+}
 
-
-
-
+add_filter( 'is_active_sidebar', 'mb_remove_sidebar', 10, 2 );
 
 
 

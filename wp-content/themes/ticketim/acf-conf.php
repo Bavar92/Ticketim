@@ -98,6 +98,10 @@ function getMiddleBanners() {
     return get_field('home_middle_banners');
 }
 
+function getMiddleBannersCategory() {
+    return get_field('middle_banners');
+}
+
 function getHomePageBottomBanner() {
     return get_field('home_footer_banner');
 }
