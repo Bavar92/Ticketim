@@ -169,7 +169,7 @@ function mytheme_add_woocommerce_support() {
             'default_rows' => 3,
             'min_rows' => 2,
             'max_rows' => 8,
-            'default_columns' => 4,
+            'default_columns' => 3,
             'min_columns' => 2,
             'max_columns' => 5,
         ),
@@ -180,13 +180,12 @@ add_action('after_setup_theme', 'mytheme_add_woocommerce_support');
 
 
 
-function mb_remove_sidebar() {
-    return false;
+add_filter('loop_shop_columns', 'loop_columns', 999);
+if (!function_exists('loop_columns')) {
+    function loop_columns() {
+        return 3; // 3 products per row
+    }
 }
-
-add_filter( 'is_active_sidebar', 'mb_remove_sidebar', 10, 2 );
-
-
 
 
 

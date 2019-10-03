@@ -5,9 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/2d8f0979927c7a8ca65e7e84b75d9a3f65bc485e/edits.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/2d8f0979927c7a8ca65e7e84b75d9a3f65bc485e/edits.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/GeoLite2-Country.mmdb" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/GeoLite2-Country.mmdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +33,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6090509">
+    <splitter split-orientation="horizontal" split-proportion="0.5857951">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -45,8 +48,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="33" />
+                <state relative-caret-position="452">
+                  <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -69,21 +72,35 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3162">
-                  <caret line="186" column="62" selection-start-line="186" selection-start-column="62" selection-end-line="186" selection-end-column="62" />
+                <state relative-caret-position="486">
+                  <caret line="180" selection-start-line="180" selection-end-line="180" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/archive-product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+                <state relative-caret-position="262">
+                  <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-product.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-129" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-single-product.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-282" />
               </provider>
             </entry>
           </file>
@@ -94,17 +111,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4386">
-                  <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
+                <state relative-caret-position="143">
+                  <caret line="560" column="5" selection-start-line="560" selection-start-column="1" selection-end-line="560" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45747">
-                  <caret line="2691" column="1" selection-start-line="2691" selection-start-column="1" selection-end-line="2691" selection-end-column="1" />
+                <state relative-caret-position="177">
+                  <caret line="2694" column="14" selection-start-line="2694" selection-start-column="14" selection-end-line="2694" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -118,10 +135,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../../functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="61">
+                <state relative-caret-position="-245">
                   <caret line="419" selection-start-line="419" selection-end-line="419" />
                   <folding>
                     <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
@@ -159,7 +176,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/artist.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/js/header.js" />
@@ -171,9 +187,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/taxonomy-product_cat.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/archive-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss" />
       </list>
     </option>
   </component>
@@ -224,6 +242,23 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
@@ -412,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570103211632</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add category page">
+      <created>1570106655004</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570106655004</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31305000" />
+    <option name="totallyTimeSpent" value="33887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -469,7 +511,8 @@
     <MESSAGE value="change basket in header" />
     <MESSAGE value="gitignore add" />
     <MESSAGE value="add functions to homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add functions to homepage" />
+    <MESSAGE value="add category page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add category page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css">
@@ -571,20 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4386">
-          <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45747">
-          <caret line="2691" column="1" selection-start-line="2691" selection-start-column="1" selection-end-line="2691" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -641,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="-245">
           <caret line="419" selection-start-line="419" selection-end-line="419" />
           <folding>
             <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
@@ -696,20 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3162">
-          <caret line="186" column="62" selection-start-line="186" selection-start-column="62" selection-end-line="186" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -717,10 +732,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/archive-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="262">
+          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="560" column="5" selection-start-line="560" selection-start-column="1" selection-end-line="560" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="2694" column="14" selection-start-line="2694" selection-start-column="14" selection-end-line="2694" selection-end-column="14" />
         </state>
       </provider>
     </entry>

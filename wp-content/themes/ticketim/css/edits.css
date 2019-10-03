@@ -170,4 +170,9 @@
     margin-right: 3%;
     text-align: center; }
 
+.wrap {
+  width: 1520px;
+  max-width: 96%;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=edits.css.map */
