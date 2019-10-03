@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd9c4c96-6b83-4cef-94ca-1300bb43e01e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="449">
+                <state relative-caret-position="2312">
                   <caret line="136" selection-start-line="136" selection-end-line="136" />
                 </state>
               </provider>
@@ -76,8 +75,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="5" selection-start-column="5" selection-end-column="5" />
+                <state relative-caret-position="17">
+                  <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -117,7 +116,7 @@
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="485">
-                  <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+                  <caret line="141" selection-start-line="141" selection-end-line="141" />
                 </state>
               </provider>
             </entry>
@@ -175,8 +174,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1916" />
+    <option name="y" value="-13" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -188,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,11 +195,21 @@
               <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
               <item name="ticketim" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +217,7 @@
     <property name="last_opened_file_path" value="C:/projects/yozma-website" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.CVS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,6 +253,7 @@
       <workItem from="1570008681464" duration="3577000" />
       <workItem from="1570013979182" duration="12928000" />
       <workItem from="1570084627621" duration="2106000" />
+      <workItem from="1570093814534" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570009165996</created>
@@ -356,17 +367,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570085103816</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="gitignore add">
+      <created>1570093609463</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570093609463</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19766000" />
+    <option name="totallyTimeSpent" value="19997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,6 +413,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ticketim" />
+    </ignored-roots>
     <MESSAGE value="test" />
     <MESSAGE value="add style edits" />
     <MESSAGE value="add menu and widgets" />
@@ -408,7 +429,8 @@
     <MESSAGE value="remove function logo" />
     <MESSAGE value="change top header" />
     <MESSAGE value="change basket in header" />
-    <option name="LAST_COMMIT_MESSAGE" value="change basket in header" />
+    <MESSAGE value="gitignore add" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css">
@@ -524,6 +546,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/artist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -544,21 +573,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
