@@ -75,6 +75,8 @@ function getCountryCityList() {
     return $all;
 }
 
+add_image_size( 'gallery', 400, 400, true );
+
 function some() {
     $some = get_field('social', 'option');
     $soc = '';

@@ -175,4 +175,88 @@
   max-width: 96%;
   margin: 0 auto; }
 
+.top-block {
+  min-height: 300px; }
+
+.categories-parent h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-bottom: 10px; }
+.categories-parent .categories-child {
+  padding-bottom: 40px; }
+  .categories-parent .categories-child .category-items {
+    padding-bottom: 40px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-flex-flow: wrap;
+    -moz-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -0.5%;
+    width: 101%; }
+    .categories-parent .categories-child .category-items > * {
+      width: 24%;
+      margin: 0 0.5% 0.625em; }
+  .categories-parent .categories-child .wrap-button {
+    text-align: center; }
+  .categories-parent .categories-child .btn {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #333333;
+    color: #333333;
+    background: transparent;
+    border-radius: 5px;
+    padding: 0 20px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+    .categories-parent .categories-child .btn:hover {
+      color: #00aeef;
+      border-color: #00aeef; }
+.categories-parent .event-card .event-card-details-container .right-column .event-sub-title {
+  margin: 10px 0 20px 0; }
+.categories-parent .event-card {
+  padding-bottom: 20px;
+  height: auto; }
+.categories-parent .event-date {
+  font-weight: 700; }
+
+.gallery-images {
+  -webkit-flex-basis: 500px;
+  -moz-flex-basis: 500px;
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px; }
+  .gallery-images .image-big {
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    -ms-flex-preferred-size: 300px;
+    flex-basis: 300px; }
+  .gallery-images .image-mini {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+
 /*# sourceMappingURL=edits.css.map */
