@@ -278,4 +278,49 @@
     .gallery-images .image-mini .image {
       margin-bottom: 20px; }
 
+.full-image {
+  min-height: 300px;
+  display: block;
+  color: #fff; }
+  .full-image .half {
+    -webkit-flex-basis: 40%;
+    -moz-flex-basis: 40%;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    max-width: 40%;
+    font-size: 22px; }
+  .full-image .text-right {
+    position: relative; }
+    .full-image .text-right span {
+      position: absolute;
+      left: -40px;
+      top: 50%;
+      font-size: 30px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%); }
+
+.alc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between; }
+
 /*# sourceMappingURL=edits.css.map */

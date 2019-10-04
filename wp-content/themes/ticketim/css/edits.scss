@@ -634,9 +634,32 @@
 
 
 
+.full-image {
+  min-height: 300px;
+  display: block;
+  color: #fff;
+  .half {
+    @include flex-basis(40%);
+    max-width: 40%;
+    font-size: 22px;
+  }
+  .text-right {
+    position: relative;
+    span {
+      position: absolute;
+      left: -40px;
+      top: 50%;
+      font-size: 30px;
+      @include transform(translateY(-50%));
+    }
+  }
+}
 
-
-
+.alc {
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(space-between);
+}
 
 
 
