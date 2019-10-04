@@ -24,6 +24,7 @@
     <script type="application/javascript" src="js/search.js"></script>
     <script type="application/javascript" src="js/live_performance.js"></script>
     <script type="application/javascript" src="js/cart.js"></script>
+    <script type="application/javascript" src="js/logic.js"></script>
     <link rel="stylesheet" href="css/edits.css">
     <link rel="stylesheet" href="assets/packages/glider.min.css">
     <link rel="stylesheet" href="assets/packages/cube.css">
