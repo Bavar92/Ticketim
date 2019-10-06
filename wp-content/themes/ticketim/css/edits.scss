@@ -529,7 +529,6 @@
   background-color: #d8d2d2 !important;
 }
 
-
 .footer-bottom {
   padding: 50px 10%;
   #footerMenu {
@@ -555,4 +554,139 @@
     text-align: center;
   }
 }
+
+.wrap {
+  width: 1520px;
+  max-width: 96%;
+  margin: 0 auto;
+  &.mini {
+    width: 1280px;
+  }
+}
+
+.top-block {
+  min-height: 300px;
+  margin-bottom: 40px;
+}
+
+.categories-parent {
+  h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .categories-child {
+    padding-bottom: 40px;
+
+    .category-items {
+      padding-bottom: 40px;
+      @include boxGrid(4, 1%);
+    }
+    .wrap-button {
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #333333;
+      color: #333333;
+      background: transparent;
+      border-radius: 5px;
+      padding: 0 20px;
+      @include transition();
+      &:hover {
+        color: #00aeef;
+        border-color: #00aeef;
+      }
+    }
+  }
+  .event-card .event-card-details-container .right-column .event-sub-title {
+    margin: 10px 0 20px 0;
+  }
+  .event-card {
+    padding-bottom: 20px;
+    height: auto;
+  }
+  .event-date {
+    font-weight: 700;
+  }
+
+}
+
+.single-text {
+  @include flex-basis(50%);
+}
+.gallery-images {
+  @include flex-basis(50%);
+  @include flex-direction(row-reverse);
+  .image-big {
+    @include flex-basis(430px);
+    margin-left: 20px;
+  }
+  .image-mini {
+    @include flex(1);
+    .image {
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.full-image {
+  min-height: 300px;
+  display: block;
+  color: #fff;
+  .half {
+    @include flex-basis(40%);
+    max-width: 40%;
+    font-size: 22px;
+  }
+  .text-right {
+    position: relative;
+    span {
+      position: absolute;
+      left: -40px;
+      top: 50%;
+      font-size: 30px;
+      @include transform(translateY(-50%));
+    }
+  }
+}
+
+.alc {
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(space-between);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

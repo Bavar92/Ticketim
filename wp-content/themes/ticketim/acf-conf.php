@@ -98,6 +98,11 @@ function getMiddleBanners() {
     return get_field('home_middle_banners');
 }
 
+function getMiddleBannersCategory() {
+    $term = get_queried_object();
+    return get_field('middle_banners', $term);
+}
+
 function getHomePageBottomBanner() {
     return get_field('home_footer_banner');
 }
