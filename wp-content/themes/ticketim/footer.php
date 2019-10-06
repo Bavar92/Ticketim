@@ -29,6 +29,15 @@
                 <?= some() ?>
             </div>
         </div>
+        <div class="footer-bottom flex">
+
+            <nav id="footerMenu">
+                <?php wp_nav_menu(array('container' => false, 'items_wrap' => '<ul id="%1$s">%3$s</ul>', 'theme_location' => 'footer_menu')); ?>
+            </nav>
+            <div class="payment-section">
+                <img src="<?= theme() ?>/assets/Ticketim.png" alt="payment">
+            </div>
+        </div>
     </div>
 </div>
 

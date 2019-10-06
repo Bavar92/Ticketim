@@ -386,8 +386,47 @@ select {
         justify-content: center;
         align-items: center; }
     .main-header .top-header .top-header-details {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
       display: flex;
-      margin-right: 20px; }
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      margin-right: 25px; }
+      .main-header .top-header .top-header-details a {
+        color: #aaaaaa;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
+        .main-header .top-header .top-header-details a:hover {
+          color: #00aeef; }
+      .main-header .top-header .top-header-details i {
+        color: grey;
+        font-size: 24px;
+        position: relative; }
+        .main-header .top-header .top-header-details i u {
+          position: absolute;
+          top: -3px;
+          right: -3px;
+          font-size: 12px;
+          background: #029bd4;
+          text-decoration: none;
+          text-align: center;
+          color: #fff;
+          width: 15px;
+          line-height: 15px;
+          height: 15px;
+          border-radius: 50%; }
       .main-header .top-header .top-header-details span {
         font-family: OpenSansHebrew;
         font-size: 16px;
@@ -397,13 +436,22 @@ select {
   .main-header .bottom-header {
     flex-grow: 1;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
     justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 20px; }
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end; }
     .main-header .bottom-header .logo {
       cursor: pointer;
       width: 20%;
       margin-bottom: 20px; }
+      .main-header .bottom-header .logo img {
+        max-width: 100%; }
     .main-header .bottom-header .nav-item-wrapper .nav-item {
       font-size: 24px;
       color: #333333;
@@ -411,9 +459,7 @@ select {
       transition: .25s all ease-in;
       padding-bottom: 20px; }
       .main-header .bottom-header .nav-item-wrapper .nav-item:hover {
-        color: #00aeef;
-        font-size: 26px;
-        margin: -2px -2px 0 -2px; }
+        color: #00aeef; }
       .main-header .bottom-header .nav-item-wrapper .nav-item a {
         color: #333333; }
     .main-header .bottom-header .nav-item-wrapper .nav-item:hover + .expander {
@@ -425,21 +471,34 @@ select {
       z-index: -1;
       transform-origin: top;
       transition: .3s all ease-in-out;
-      max-height: 250px;
       max-width: 100%;
       width: 100vw;
       right: 0;
       background-color: #ebebeb;
       flex-wrap: wrap;
       display: flex;
-      overflow: hidden; }
+      overflow: hidden;
+      padding: 20px 0; }
       .main-header .bottom-header .nav-item-wrapper .expander:hover {
         z-index: 5;
         opacity: 1; }
       .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper {
         padding: 0 15%;
         width: 100%;
-        display: flex; }
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        justify-content: space-between; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .left-border {
           border-left: 1px solid #4d4d4d; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list {
@@ -450,14 +509,36 @@ select {
             cursor: pointer;
             font-family: OpenSansHebrew;
             font-size: 16px;
-            margin-bottom: 20px; }
+            margin-bottom: 20px;
+            position: relative; }
+            .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list .sub-category:after {
+              content: '>';
+              position: absolute;
+              right: -15px;
+              top: 1px;
+              -webkit-transition: all 0.4s ease;
+              -moz-transition: all 0.4s ease;
+              -ms-transition: all 0.4s ease;
+              -o-transition: all 0.4s ease;
+              transition: all 0.4s ease;
+              opacity: 0; }
             .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list .sub-category a {
               color: #4d4d4d;
-              text-decoration: none; }
+              text-decoration: none;
+              -webkit-transition: all 0.4s ease;
+              -moz-transition: all 0.4s ease;
+              -ms-transition: all 0.4s ease;
+              -o-transition: all 0.4s ease;
+              transition: all 0.4s ease; }
+            .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list .sub-category:hover:after {
+              opacity: 1; }
+            .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .sub-categories-list .sub-category:hover a {
+              font-weight: 700; }
         .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .banner {
-          width: 25%;
-          margin: 20px;
-          background-color: white; }
+          width: 49%; }
+          .main-header .bottom-header .nav-item-wrapper .expander .subcategories-wrapper .banner img {
+            max-width: 100%;
+            height: 260px; }
 
 .fixed-header {
   position: fixed;
