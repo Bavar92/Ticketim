@@ -628,6 +628,7 @@
     @include flex(1);
     .image {
       margin-bottom: 20px;
+      cursor: pointer;
     }
   }
 }

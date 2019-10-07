@@ -276,7 +276,8 @@
     -ms-flex: 1;
     flex: 1; }
     .gallery-images .image-mini .image {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      cursor: pointer; }
 
 .full-image {
   min-height: 300px;
