@@ -245,16 +245,22 @@
   font-weight: 700; }
 
 .single-text {
-  -webkit-flex-basis: 50%;
-  -moz-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%; }
+  -webkit-flex-basis: 49%;
+  -moz-flex-basis: 49%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  max-width: 49%;
+  padding-left: 40px; }
+  .single-text h1 {
+    font-size: 30px; }
 
 .gallery-images {
-  -webkit-flex-basis: 50%;
-  -moz-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
+  -webkit-flex-basis: 49%;
+  -moz-flex-basis: 49%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  max-width: 49%;
+  margin-bottom: 30px;
   -webkit-box-direction: reverse;
   -webkit-box-orient: horizontal;
   -webkit-flex-direction: row-reverse;
@@ -268,6 +274,12 @@
     -ms-flex-preferred-size: 430px;
     flex-basis: 430px;
     margin-left: 20px; }
+    .gallery-images .image-big .image img {
+      object-fit: cover;
+      -o-object-fit: cover;
+      object-position: center;
+      -o-object-position: center;
+      height: 100%; }
   .gallery-images .image-mini {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -278,6 +290,12 @@
     .gallery-images .image-mini .image {
       margin-bottom: 20px;
       cursor: pointer; }
+      .gallery-images .image-mini .image.active {
+        -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75); }
+      .gallery-images .image-mini .image:last-child {
+        margin-bottom: 0; }
 
 .full-image {
   min-height: 300px;
@@ -323,5 +341,90 @@
   -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
   justify-content: space-between; }
+
+.style-custom-single h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize; }
+.style-custom-single .wrapper {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start; }
+.style-custom-single .directions {
+  padding: 15px 50px;
+  border: 2px solid #00aeef;
+  border-radius: 5px;
+  font-size: 20px; }
+.style-custom-single .header {
+  background-color: #00aeef;
+  color: #fff;
+  padding: 10px 40px; }
+  .style-custom-single .header p {
+    font-size: 20px; }
+    .style-custom-single .header p strong {
+      font-weight: 700; }
+.style-custom-single .body {
+  padding: 20px 40px;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-flex-flow: wrap;
+  -moz-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -0;
+  width: 100%;
+  text-align: center; }
+  .style-custom-single .body > * {
+    width: 25%;
+    margin: 0 0 0em; }
+.style-custom-single .half {
+  -webkit-flex-basis: 48%;
+  -moz-flex-basis: 48%;
+  -ms-flex-preferred-size: 48%;
+  flex-basis: 48%;
+  max-width: 48%; }
+.style-custom-single .company {
+  max-width: 25%;
+  -webkit-flex-basis: 25%;
+  -moz-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%; }
+.style-custom-single .departure .alc, .style-custom-single .arrival .alc {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+.style-custom-single .code p strong {
+  color: #00aeef;
+  font-weight: 700; }
+.style-custom-single .col-3 {
+  padding: 0 10px; }
+.style-custom-single .abbr {
+  text-transform: uppercase;
+  color: #00aeef;
+  font-weight: 700;
+  margin-left: 10px; }
+.style-custom-single .bottom-info {
+  padding: 20px 40px; }
 
 /*# sourceMappingURL=edits.css.map */

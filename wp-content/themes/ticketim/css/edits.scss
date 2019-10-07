@@ -529,7 +529,6 @@
   background-color: #d8d2d2 !important;
 }
 
-
 .footer-bottom {
   padding: 50px 10%;
   #footerMenu {
@@ -616,25 +615,49 @@
 }
 
 .single-text {
-  @include flex-basis(50%);
+  @include flex-basis(49%);
+  max-width: 49%;
+  padding-left: 40px;
+  h1 {
+    font-size: 30px;
+  }
 }
+
 .gallery-images {
-  @include flex-basis(50%);
+  @include flex-basis(49%);
+  max-width: 49%;
+  margin-bottom: 30px;
   @include flex-direction(row-reverse);
   .image-big {
     @include flex-basis(430px);
     margin-left: 20px;
+    .image {
+      img {
+        object-fit: cover;
+        -o-object-fit: cover;
+        object-position: center;
+        -o-object-position: center;
+        height: 100%;
+      }
+
+    }
   }
   .image-mini {
     @include flex(1);
     .image {
       margin-bottom: 20px;
       cursor: pointer;
+      &.active {
+        -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
-
-
 
 .full-image {
   min-height: 300px;
@@ -663,10 +686,71 @@
   @include justify-content(space-between);
 }
 
-
-
-
-
+.style-custom-single {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .wrapper {
+    @include align-items(flex-start);
+  }
+  .directions {
+    padding: 15px 50px;
+    border: 2px solid #00aeef;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .header {
+    background-color: #00aeef;
+    color: #fff;
+    padding: 10px 40px;
+    p {
+      font-size: 20px;
+      strong {
+        font-weight: 700;
+      }
+    }
+  }
+  .body {
+    padding: 20px 40px;
+    @include boxGrid(4, 0);
+    text-align: center;
+  }
+  .half {
+    @include flex-basis(48%);
+    max-width: 48%;
+  }
+  .company {
+    max-width: 25%;
+    @include flex-basis(25%);
+  }
+  .departure, .arrival {
+    .alc {
+      @include justify-content(center);
+    }
+  }
+  .code {
+    p {
+      strong {
+        color: #00aeef;
+        font-weight: 700;
+      }
+    }
+  }
+  .col-3 {
+    padding: 0 10px;
+  }
+  .abbr {
+    text-transform: uppercase;
+    color: #00aeef;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .bottom-info {
+    padding: 20px 40px;
+  }
+}
 
 
 
