@@ -2950,7 +2950,6 @@ readers do not read off random characters that represent icons */
   font-family: 'fontawesome-solid'; }
 
 .footer-main {
-  height: 650px;
   background-color: #ebebeb;
   display: flex;
   flex-direction: column;

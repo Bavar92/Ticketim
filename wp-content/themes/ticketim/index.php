@@ -1,33 +1,20 @@
-<?php
-/**
- * @package Ticketim
- * @subpackage Ticketim
- * @since 1.0.0
- */
+<?php get_header(); ?>
 
- 
-do_action( 'woocommerce_before_main_content' );
-?>
+<?php if (get_field('top_image_b', 'option')) { ?>
+    <div class="topBox alc cover" style="<?php echo image_src(get_field("top_image_b", 'option'), "free", true); ?>">
+        <div class="container">
+            <h1><?php echo get_the_title(BLOG_ID); ?></h1>
+        </div>
+    </div>
+<?php } else { ?>
+    <div class="topBox withoutBg alc cover">
+        <div class="container">
+            <h1><?php echo get_the_title(BLOG_ID); ?></h1>
+        </div>
+    </div>
+<?php } ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+    <section class="post-content">
 
-    <?php wc_get_template_part( 'content', 'single-product' ); ?>
-
-<?php endwhile; // end of the loop. ?>
-
-<?php
-/**
- * woocommerce_after_main_content hook.
- *
- * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
- */
-do_action( 'woocommerce_after_main_content' );
-?>
-
-<?php
-/**
- * woocommerce_sidebar hook.
- *
- * @hooked woocommerce_get_sidebar - 10
- */
-do_action( 'woocommerce_sidebar' );
+    </section>
+<?php get_footer(); ?>

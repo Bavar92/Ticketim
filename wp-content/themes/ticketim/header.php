@@ -24,6 +24,7 @@
     <script type="application/javascript" src="js/search.js"></script>
     <script type="application/javascript" src="js/live_performance.js"></script>
     <script type="application/javascript" src="js/cart.js"></script>
+    <script type="application/javascript" src="js/logic.js"></script>
     <link rel="stylesheet" href="css/edits.css">
     <link rel="stylesheet" href="assets/packages/glider.min.css">
     <link rel="stylesheet" href="assets/packages/cube.css">
@@ -110,7 +111,7 @@ function build_mobile_sub_categories($sub_categories)
 
 ?>
 
-<body>
+<body <?= body_class() ?>>
 <div class="main-header">
     <div class="top-header">
         <div class="top-header-details">
@@ -122,6 +123,7 @@ function build_mobile_sub_categories($sub_categories)
             <span><a href="tel:<? the_field('phone', 'option') ?>"><? the_field('phone', 'option') ?></a></span>
         </div>
         <div class="top-header-details">
+
             <?php
             add_shortcode('woo_cart_but', 'woo_cart_but');
 
@@ -133,6 +135,7 @@ function build_mobile_sub_categories($sub_categories)
                 $cart_url = wc_get_cart_url();
 
                 ?>
+
                 <a class="menu-item cart-contents" href="<?php echo $cart_url; ?>" title="Cart">
                     <i class="cart-contents-count fas fa-shopping-cart">
                         <?php
@@ -153,6 +156,8 @@ function build_mobile_sub_categories($sub_categories)
             echo do_shortcode("[woo_cart_but]"); ?>
 
         </div>
+
+
     </div>
     <div class="bottom-header">
         <a href="<? site_url() ?>/" class="logo">

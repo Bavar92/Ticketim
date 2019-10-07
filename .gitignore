@@ -1,0 +1,6 @@
+.idea
+.gitignore
+wp-content/debug.log
+wp-content/uploads/*
+wp-content/themes/ticketim/css/partials/*
+wp-content/themes/ticketim/css/.sass-cache/*

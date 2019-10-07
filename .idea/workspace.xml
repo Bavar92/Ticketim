@@ -1,7 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd9c4c96-6b83-4cef-94ca-1300bb43e01e" name="Default Changelist" comment="" />
+    <list default="true" id="dd9c4c96-6b83-4cef-94ca-1300bb43e01e" name="Default Changelist" comment="Merge branch 'dev' into update-code&#10;&#10;# Conflicts:&#10;#&#9;wp-content/debug.log&#10;#&#9;wp-content/themes/ticketim/css/.sass-cache/2d8f0979927c7a8ca65e7e84b75d9a3f65bc485e/edits.scssc&#10;#&#9;wp-content/themes/ticketim/css/edits.css.map&#10;#&#9;wp-content/themes/ticketim/css/edits.scss">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/js/logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/archive-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/acf-conf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/2d8f0979927c7a8ca65e7e84b75d9a3f65bc485e/edits.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/32c28661e846ea7cae5083f6bc912e0cd45bb71d/bottom-slider.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/32c28661e846ea7cae5083f6bc912e0cd45bb71d/footer.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/32c28661e846ea7cae5083f6bc912e0cd45bb71d/header.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/3c49c5c0e6c567b9460e9ef8cf1cdf971230ac0a/base.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/3c49c5c0e6c567b9460e9ef8cf1cdf971230ac0a/colors.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/3c49c5c0e6c567b9460e9ef8cf1cdf971230ac0a/fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/3c49c5c0e6c567b9460e9ef8cf1cdf971230ac0a/form.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/3c49c5c0e6c567b9460e9ef8cf1cdf971230ac0a/reset.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/artist.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/cart.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/desktop-search.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/home.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/hot-sales.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/main-events-details.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/main-events.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/a597d3ae5c2664fe2a7647e2ebdc8ca4a4f462b3/sports-categories.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/abad6bd9af59c787e46a45eedeec5f425813179e/header.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/base.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/cart-strip.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/colors.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/event-card.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/form.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/.sass-cache/bde6b7e002d01a0849b492d176a3b3526ccc6710/reset.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/js/bottom-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/js/bottom-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/archive-product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/auth/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/form-grant-access.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/auth/form-grant-access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/form-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/auth/form-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/auth/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cart-empty.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cart-empty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cart-item-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cart-item-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cart-shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cart-shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cart-totals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cart-totals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/cross-sells.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/cross-sells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/mini-cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/mini-cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/proceed-to-checkout-button.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/proceed-to-checkout-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/cart/shipping-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/cart/shipping-calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/cart-errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/cart-errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-billing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-billing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-coupon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/form-shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/form-shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/order-receipt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/order-receipt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/payment-method.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/payment-method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/review-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/review-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/terms.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/terms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/checkout/thankyou.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/checkout/thankyou.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/content-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/content-product_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-product_cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/content-single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/content-widget-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-widget-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/content-widget-reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-widget-reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/admin-cancelled-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/admin-cancelled-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/admin-failed-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/admin-failed-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/admin-new-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/admin-new-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-completed-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-completed-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-new-account.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-new-account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-note.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-on-hold-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-on-hold-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-processing-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-processing-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-refunded-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-refunded-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/customer-reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/customer-reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-addresses.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-addresses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-customer-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-customer-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-downloads.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-downloads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-order-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-order-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-order-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-order-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/email-styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/email-styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/admin-cancelled-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/admin-cancelled-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/admin-failed-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/admin-failed-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/admin-new-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/admin-new-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-completed-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-completed-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-new-account.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-new-account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-note.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-on-hold-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-on-hold-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-processing-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-processing-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-refunded-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-refunded-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/customer-reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/customer-reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/email-addresses.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/email-addresses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/email-customer-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/email-customer-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/email-downloads.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/email-downloads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/email-order-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/email-order-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/emails/plain/email-order-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/emails/plain/email-order-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/breadcrumb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/form-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/form-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/quantity-input.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/quantity-input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/wrapper-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/wrapper-end.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/global/wrapper-start.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/global/wrapper-start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/add-to-cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/add-to-cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/loop-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/loop-end.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/loop-start.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/loop-start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/no-products-found.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/no-products-found.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/orderby.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/orderby.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/rating.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/rating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/result-count.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/result-count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/loop/sale-flash.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/loop/sale-flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/downloads.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/downloads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-add-payment-method.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-add-payment-method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-edit-account.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-edit-account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-edit-address.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-edit-address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-lost-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-lost-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/form-reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/form-reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/lost-password-confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/lost-password-confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/my-account.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/my-account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/my-address.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/my-address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/my-downloads.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/my-downloads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/my-orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/my-orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/payment-methods.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/payment-methods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/myaccount/view-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/myaccount/view-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/notices/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/notices/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/notices/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/notices/notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/notices/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/notices/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/form-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/form-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/order-again.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/order-again.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/order-details-customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/order-details-customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/order-details-item.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/order-details-item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/order-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/order-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/order-downloads.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/order-downloads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/order/tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/order/tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/product-searchform.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/product-searchform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product-reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product-reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/external.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/external.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/grouped.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/grouped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/variation-add-to-cart-button.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/add-to-cart/variation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/add-to-cart/variation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/photoswipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/photoswipe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/product-attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/product-attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/product-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/product-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/product-thumbnails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/product-thumbnails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/rating.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/rating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/related.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/related.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/review-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/review-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/review-rating.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/review-rating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/sale-flash.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/sale-flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/share.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/share.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/short-description.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/short-description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/stock.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/stock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/tabs/additional-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/tabs/additional-information.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/tabs/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/tabs/description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/tabs/tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/tabs/tabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/title.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/single-product/up-sells.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product/up-sells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/taxonomy-product_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/taxonomy-product_cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ticketim/templates/taxonomy-product_tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/taxonomy-product_tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/GeoLite2-Country.mmdb" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/GeoLite2-Country.mmdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-settings.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,55 +200,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6067627">
+    <splitter split-orientation="horizontal" split-proportion="0.6232617">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/header.php">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
+                <state relative-caret-position="289">
+                  <caret line="112" column="74" selection-start-line="112" selection-start-column="74" selection-end-line="112" selection-end-column="74" />
+                  <folding>
+                    <element signature="e#839#896#0#HTML" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/artist.php">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-single-product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="14" column="13" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="13" />
+                <state relative-caret-position="228">
+                  <caret line="44" selection-start-line="44" selection-end-line="44" />
                 </state>
               </provider>
             </entry>
@@ -66,29 +228,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4386">
-                  <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45747">
-                  <caret line="2691" column="1" selection-start-line="2691" selection-start-column="1" selection-end-line="2691" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/header.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
-                  <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+                <state relative-caret-position="706">
+                  <caret line="750" column="23" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -114,7 +258,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
   </component>
@@ -123,7 +267,6 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/artist.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/page.php" />
@@ -131,6 +274,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/js/header.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ticketim/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product.php" />
       </list>
     </option>
   </component>
@@ -186,6 +331,22 @@
               <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
               <item name="ticketim" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ticketim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ticketim" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,6 +397,8 @@
       <workItem from="1570008681464" duration="3577000" />
       <workItem from="1570013979182" duration="12928000" />
       <workItem from="1570084627621" duration="2106000" />
+      <workItem from="1570441255414" duration="2223000" />
+      <workItem from="1570446041997" duration="7677000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570009165996</created>
@@ -353,13 +516,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18611000" />
+    <option name="totallyTimeSpent" value="29909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,6 +551,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test" />
     <MESSAGE value="add style edits" />
     <MESSAGE value="add menu and widgets" />
@@ -401,7 +566,9 @@
     <MESSAGE value="remove function logo" />
     <MESSAGE value="change top header" />
     <MESSAGE value="change basket in header" />
-    <option name="LAST_COMMIT_MESSAGE" value="change basket in header" />
+    <MESSAGE value="init" />
+    <MESSAGE value="add single" />
+    <option name="LAST_COMMIT_MESSAGE" value="add single" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.css">
@@ -459,13 +626,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/templates/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/templates/archive-product.php" />
     <entry file="file://$USER_HOME$/Desktop/themeWP/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -473,9 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/templates/auth/footer.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -518,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4386">
-          <caret line="258" column="1" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/partials/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45747">
@@ -550,6 +702,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/assets/placeholder-image copy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/assets/pointing_person.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/content-single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/css/edits.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="750" column="23" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ticketim/woocommerce/single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="112" column="74" selection-start-line="112" selection-start-column="74" selection-end-line="112" selection-end-column="74" />
+          <folding>
+            <element signature="e#839#896#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
